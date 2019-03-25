@@ -2,26 +2,25 @@ site_name: HubZhangxj Blog
 site_author: hubzhangxj
 
 repo_url: https://github.com/hubzhangxj/hubzhangxj-blog
-
+use_directory_urls: true
 nav:
     - Home: index.md
     - Benchmark:
-        - speccpu2006: speccpu2006.md
-        - sysbench: sysbench.md
-        - fio: fio.md
-        - vdbench: vdbench.md
-        - iperf: vdbench.md
-        - stream: vdbench.md
-        - unixbench: vdbench.md
-        - perf: perf.md
+        - speccpu2006: benchmark/speccpu2006.md
+        - sysbench: benchmark/sysbench.md
+        - fio: benchmark/fio.md
+        - vdbench: benchmark/vdbench.md
+        - iperf: benchmark/iperf.md
+        - stream: benchmark/stream.md
+        - unixbench: benchmark/unixbench.md
+        - perf: benchmark/perf.md
     - Big data:
-        - Hadoop: 
-            - HDFS: hdfs.md
-            - MapReduce: hdfs.md
-            - YARN: yarn.md
-        - Hbase: hbase.md
-        - Hive: hive.md
-    - Linux:
+        - HDFS: big-data/hdfs.md 
+        - MapReduce: big-data/mapreduce.md
+        - YARN: big-data/yarn.md
+        - Hbase: big-data/hbase.md
+        - Hive: big-data/hive.md
+    - Kernel:
         - Mem: mem.md
         - Mutex: mutex.md
         - Interrupt: interrupt.md
