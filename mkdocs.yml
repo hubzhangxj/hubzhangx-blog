@@ -20,6 +20,10 @@ nav:
         - YARN: big-data/yarn.md
         - Hbase: big-data/hbase.md
         - Hive: big-data/hive.md
+    - SQL :
+        - MySQl: sql/mysql.md
+        - Postgis: sql/postgis.md
+        - PostgreSQl: sql/postgres.md
     - Kernel:
         - Mem: mem.md
         - Mutex: mutex.md
